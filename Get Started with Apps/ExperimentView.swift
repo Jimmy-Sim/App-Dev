@@ -29,8 +29,6 @@ struct ExperimentView: View {
                         .font(.caption)
                 }
             }
-            //#-learning-task(createBluView)
-            //#-learning-task(createHopperView)
         }
     }
 }
