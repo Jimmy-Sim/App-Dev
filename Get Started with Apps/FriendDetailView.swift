@@ -3,9 +3,6 @@ import SwiftUI
 struct FriendDetailView: View {
     var body: some View {
         VStack {
-        //#-learning-task(composeAView)
-        //#-learning-task(addTextInVStack)
-        //#-learning-task(describeFriend)
             HStack {
                 Image("Friend")
                     .resizable()
