@@ -2,17 +2,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        /*#-code-walkthrough(ContentView.tabView)*/
         TabView {
-            /*#-code-walkthrough(ContentView.tabView)*/
-            /*#-code-walkthrough(ContentView.homeTab)*/
             HomeView()
-            /*#-code-walkthrough(ContentView.homeTab)*/
-            /*#-code-walkthrough(ContentView.tabItem)*/
                 .tabItem {
                     Label("Home", systemImage: "person")
                 }
-            /*#-code-walkthrough(ContentView.tabItem)*/
 
             StoryView()
                 .tabItem {
@@ -33,7 +27,6 @@ struct ContentView: View {
                 .tabItem {
                     Label("My Tab", systemImage: "house")
                 }
-            /*#-code-walkthrough(ContentView.addATab)*/
         }
         
         
